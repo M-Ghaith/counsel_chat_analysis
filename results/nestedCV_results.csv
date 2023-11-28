@@ -1,0 +1,7 @@
+Model,NestedCV mean accuracy,Best Parameters,Accuracy,Precision,Recall,F1-Score
+logistic_regression,0.5064393939393941,"{'C': 1, 'max_iter': 200, 'penalty': 'l2', 'solver': 'sag'}",0.5212121212121212,0.5231191533460996,0.5224434035909445,0.5205279661480529
+random_forest,0.7526515151515152,"{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}",0.7818181818181819,0.7870388540031397,0.7831892054397227,0.7848050338419545
+svm,0.8128787878787879,"{'C': 100, 'gamma': 'scale', 'kernel': 'rbf'}",0.8106060606060606,0.8099335073006264,0.8165931500723799,0.8112269813215714
+decision_tree,0.5359848484848485,"{'criterion': 'gini', 'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 5}",0.5742424242424242,0.5767195767195767,0.575678386373914,0.5752764690925951
+gradient_boosting,0.7840909090909091,"{'learning_rate': 0.2, 'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 200}",0.8151515151515152,0.8204611150159482,0.8157693094745458,0.8171555725093776
+mlpc,0.7761363636363637,"{'activation': 'relu', 'alpha': 0.001, 'hidden_layer_sizes': (100,), 'learning_rate': 'adaptive', 'max_iter': 500, 'solver': 'adam'}",0.7893939393939394,0.7904650904650904,0.7975291097923597,0.7892727109941559
